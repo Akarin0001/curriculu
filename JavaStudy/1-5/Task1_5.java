@@ -7,19 +7,21 @@ public class Task1_5 {
     public static void main(String[] args ) {
 
          // 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fruits を作成してください。
-         String [] fruits = {"りんご","ぶどう","メロン"};
+         String [] fruits = {"みかん","りんご","ぶどう","メロン"};
+
+         for(int h = 0; h< fruits.length;h++){
+           System.out.println(fruits[h]);
+         }
 
             // ② for文を使って①で作成した配列を出力しなさい。
 
-        for (String i = 0; i < string.length; i++) {
-               System.out.println
-        };
-
+      
            // 以下のwhile文の処理について、何をしているのかコメントを記入してください。
 
            // 変数iの初期化
-           // 1から100までの数字を出力
+           // 1から100までの数字を改行しないで出力
            // 無限ループにならないように i++を加える
+           //1つの段を表示し終わったところで改行する
 
         int i = 1;
         while(i <= 100) {
@@ -27,7 +29,6 @@ public class Task1_5 {
           i++;
         }
         System.out.println();
-            }
 
 
           /* ④ 行の最初に「段数」と「||」を追加したものを表示させるプログラムを作成しなさい。
@@ -41,16 +42,24 @@ public class Task1_5 {
         *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
-for (int i = 1 ; I <=9; i++) {
-     for (int j = 1; J<=9; J++) {
-          System.out.print(i + "×" j + "=" + (i *j) + " " );
-     }
-     System.out.println();
-}
+       
+       for(int o = 1;  o <= 9; o++) { 
+        System.out.print(o + "||");
+        
 
-  
+       for(int j = 1; j <= 9; j++) { 
+        System.out.print( " " + o * j + "|"); 
+       
+       } 
+       System.out.println("");
+   
+          
                 
     }
+            }
+
+
+        
 }
 
 
