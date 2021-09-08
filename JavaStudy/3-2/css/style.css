@@ -1,0 +1,94 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+.wrapper{
+    width:400px;
+}
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;;
+}
+
+ /*.main{
+    width:400px;
+    height:250px;
+    background-color: green;
+}*/
+
+.left{
+    width:150px;
+    height:250px;
+    background-color: #80bfa8;
+    float:left;
+}
+
+ /*.right{
+    width:250px;
+    height:250px;
+    background-color:palevioletred;
+    float: right;
+}  
+
+  /*.right-upper{
+    width:250px;
+    height:150px;
+    background-color:red;
+    float:left;
+    
+    
+}*/
+
+
+  /*.right-upper-left{
+    width:150px;
+    height:150px;
+    background-color:aqua;
+    float:left;
+}*/
+
+.right-upper-right{
+    width:100px;
+    height:150px;
+    background-color: #ff9e6b;
+    float:right;
+} 
+
+.right-lower{
+    width:250px;
+    height:100px;
+    background-color: #8c2727;
+    float:right;
+    
+}
+
+ .right-upper-left-upper{
+    width:150px;
+    height:50px;
+    background-color: #dbd400;;
+    float:left;
+}
+
+.right-upper-left-lower{
+    width:150px;
+    height:100px;
+    background-color: #0093b7;
+    float:left;
+}
+/* コメント */
+
+
+
+
+
+
+
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
