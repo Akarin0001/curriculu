@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+
+    .header{
+        width:300px;
+    }
     
 
     .wrapper{
@@ -17,6 +21,26 @@
         width:75px;
     }
 
+    .right-upper-left-lower{
+        width:125px;
+    }
+
+    .right-lower{
+        width:200px;
+    }
+
+    .footer{
+        width:300px;
+    }
+    
+    .right-upper-left-upper{
+        width:125px;
+    }
+
+
+
+
+
 }
 
 @media screen and (max-width: 479px){
@@ -30,6 +54,7 @@
     }
     .right-upper-right{
         height: 100px;
+        width: 150px;
     
     }
 
@@ -47,6 +72,14 @@
 
     .right-upper-right{
         width:150px;
+    }
+
+    .right-upper-left-upper{
+        width:150px;
+    }
+
+    .right-upper-left-lower{
+        width: 150px;
     }
 
 
